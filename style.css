@@ -94,8 +94,19 @@ header {
     width: 20px;
     color: #9aa0a6;
     font-size: small;
+    padding-right: 15px;
 }
 
 .mag-svg {
     fill: currentColor;
+}
+
+button.x {
+    background: transparent;
+    border: none;
+    visibility: hidden;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: monospace;
 }
