@@ -205,12 +205,30 @@ footer {
     bottom: 0;
     left: 0;
     width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
 }
 
 .bottom-left-nav {
+    margin-left: 30px;
+}
 
+.bottom-left-nav a {
+    padding-right: 27px;
+    line-height: 40px;
+    font-size: 14px;
 }
 
 .bottom-right-nav {
-    
+    margin-right: 30px;
+}
+
+.bottom-right-nav a {
+    padding-left: 27px;
+    line-height: 40px;
+    font-size: 14px;
 }
