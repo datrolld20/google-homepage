@@ -137,30 +137,52 @@ button.x {
     min-width: 54px;
     cursor: pointer;
     user-select: none;
+
 }
 
-.google-search:hover {
+.google-search:hover, .feeling-lucky:hover {
     color: #222;
     border: 1px solid #9aa0a6;
     box-shadow: 0px 1px 1px 0 rgba(32,33,36,0.28);
 }
 
 .feeling-wheel {
+    display: flex;
     position: absolute;
     left: 138px;
     top: 0px;
     margin: 0 5px;
     padding: 0 12px;
-    background: #f2f2f2;
-    border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5f6368;
     font-size: 14px;
     line-height: 34px;
     height: 35px;
-    min-width: 117px;
-    cursor: pointer;
+    width: 100%;
     user-select: none;
+    pointer-events: none;
+}
 
+.wheel-options-relative {
+    display: flex;
+    background: blue;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.wheel-options-absolute {
+    position: absolute;
+    top: -170px;
+    z-index: 2;
+}
+
+.wheel-options-absolute span {
+    display: block;
+}
+
+.hidden-text {
+    color:yellow;
+    font-family: 'Poppins' !important;
     visibility: hidden;
 }

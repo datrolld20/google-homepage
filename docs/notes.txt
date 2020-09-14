@@ -2,3 +2,25 @@
 
 font color: #222
 background: #fff
+
+wheel-options-absolute -- MULTIPLES of 34
+
+<div id="feeling-wheel" class="feeling-wheel">
+                        <div id="wheel-options-relative" class="wheel-options">
+                            <div id="wheel-options-absolute" class="wheel-options-absolute">
+                                <span>I'm Feeling Doodley</span>
+                                <span>I'm Feeling Artistic</span>
+                                <span>I'm Feeling Hungry</span>
+                                <span>I'm Feeling Puzzled</span>
+                                <span>I'm Feeling Trendy</span>
+                                <span>I'm Feeling Lucky</span>
+                                <span>I'm Feeling Stellar</span>
+                                <span>I'm Feeling Playful</span>
+                                <span>I'm Feeling Wonderful</span>
+                                <span>I'm Feeling Generous</span>
+                                <span>I'm Feeling Curious</span>
+                                <span>I'm Feeling Adventurous</span>
+                            </div>
+                        </div>
+                        
+                    </div>

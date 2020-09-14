@@ -36,7 +36,7 @@
                         <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
                     </svg>
                 </div>
-                <input id="searchbar" class="searchbar" type="text" oninput="btnVisibility()">
+                <input id="searchbar" class="searchbar" type="text" oninput="xBtnVisibility()">
                 <button id="x-btn" class="x" onclick="clearInput()">X</button>
             </div>
 
@@ -44,13 +44,34 @@
                 <button id="google-search" class="google-search">
                     Google Search
                 </button>
-                <button id="feeling-lucky" class="feeling-lucky" onmouseover="luckyWheel()">
-                    I'm Feeling Lucky
+                <button id="feeling-lucky" class="feeling-lucky"
+                onmouseover="feelingWheel()" onmouseout="feelingReset()">
+                    <span id="hidden-text" class="hidden-text">I'm Feeling Lucky</span>
+                    
                 </button>
+
                 <div id="feeling-wheel" class="feeling-wheel">
-                    I'm Feeling Lucky
+                    <div id="wheel-options-relative" class="wheel-options">
+                        <div id="wheel-options-absolute" class="wheel-options-absolute">
+                            <span>I'm Feeling Doodley</span>
+                            <span>I'm Feeling Artistic</span>
+                            <span>I'm Feeling Hungry</span>
+                            <span>I'm Feeling Puzzled</span>
+                            <span>I'm Feeling Trendy</span>
+                            <span>I'm Feeling Lucky</span>
+                            <span>I'm Feeling Stellar</span>
+                            <span>I'm Feeling Playful</span>
+                            <span>I'm Feeling Wonderful</span>
+                            <span>I'm Feeling Generous</span>
+                            <span>I'm Feeling Curious</span>
+                            <span>I'm Feeling Adventurous</span>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
+
+            <button onclick="resizeRandom()">press</button>
         </div>
     </body>
 </html>
