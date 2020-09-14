@@ -16,3 +16,4 @@ function clearInput() {
     searchBar.value = "";
     xBtn.style.visibility = 'hidden';
 }
+
